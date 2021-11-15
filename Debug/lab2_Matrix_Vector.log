@@ -1,0 +1,32 @@
+﻿  Main.cpp
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Matrix.h(65,26): warning C4018: >: несоответствие типов со знаком и без знака
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Matrix.h(64): message : во время компиляции функции-члена класс шаблон "Vector<int> &Matrix<int>::operator [](int)"
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Main.cpp(15): message : выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int> &Matrix<int>::operator [](int)"
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Main.cpp(13): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<int>"
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(102,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(100): message : во время компиляции функции-члена класс шаблон "Vector<int> Vector<int>::operator *(const T &)"
+          with
+          [
+              T=int
+          ]
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Main.cpp(11): message : выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int> Vector<int>::operator *(const T &)"
+          with
+          [
+              T=int
+          ]
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Main.cpp(8): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(84,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(82): message : во время компиляции функции-члена класс шаблон "Vector<int> Vector<int>::operator +(const T &)"
+          with
+          [
+              T=int
+          ]
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Main.cpp(9): message : выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int> Vector<int>::operator +(const T &)"
+          with
+          [
+              T=int
+          ]
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(125,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Vector.h(121): message : во время компиляции функции-члена класс шаблон "Vector<int> Vector<int>::operator -(const Vector<int> &)"
+D:\MyCpp\Lobach\lab2_Matrix_Vector\Matrix.h(48): message : выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int> Vector<int>::operator -(const Vector<int> &)"
+  lab2_Matrix_Vector.vcxproj -> D:\MyCpp\Lobach\lab2_Matrix_Vector\Debug\lab2_Matrix_Vector.exe
