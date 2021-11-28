@@ -1,21 +1,12 @@
 #include <stdio.h>
 //#include "Matrix.h"
-#include "Matrix.h"
-#include "Vector.h"
+#include "TMatrix.h"
+#include "TVector.h"
 
 int main()
 {
-	Vector<int> vec(5);
-	vec = vec + 5;
-	std::cout << vec << std::endl;
-	vec = vec * 5;
-	std::cout << vec << std::endl;
-	Matrix<int> m1(5);
-	Matrix<int> m2(5);
-	m1[0] = vec;
-	m2 = m2 - m1;
-	std::cout << m1 << std::endl;
-	std::cout << m2;
-	
+	TMatrix<int>* arr = new TMatrix<int>(3);
+	(*arr)[1][1] = 5;
+	std::cout << arr[0];
 	return 0;
 }
